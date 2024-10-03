@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#1111;
+}
+.b{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    animation: radha 10s infinite;
+    position: relative;
+}
+@keyframes radha{
+    0%{
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    border-radius: 30%;
+    }
+    25%{
+        top: 0px;
+        left: 1430px;
+        background-color: aqua;
+        border-radius: 50%;
+    }
+    50%{
+        top: 620px;
+        left: 1430px;
+        background-color: blue;
+        border-radius: 30%;
+    }
+    75%{
+        top: 620px;
+        left: 0px;
+        background-color: burlywood;
+        border-radius: 50%;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: antiquewhite;
+        border-radius: 30%;
+
+    }
+}
